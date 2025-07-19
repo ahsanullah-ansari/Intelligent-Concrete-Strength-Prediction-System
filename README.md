@@ -86,13 +86,14 @@ Although the R² is slightly below 0.92, other metrics indicate excellent predic
 ![Prediction Plot](Predicted_vs_Actual.png)
 
 
-Performance Comparison (Neural Net vs Linear Regression):
+### Performance Comparison (Neural Net vs Linear Regression)
 
-Metric         Neural Net         Linear Regression
-----------------------------------------------------
-MAE               0.23                  0.24
-RMSE              0.30                  0.31
-R² Score          0.8417                0.8246
+| Metric     | Neural Net | Linear Regression |
+|------------|------------|-------------------|
+| MAE        | 0.23       | 0.24              |
+| RMSE       | 0.30       | 0.31              |
+| R² Score   | 0.8417     | 0.8246            |
+
 
 ---
 ## Conclusion
