@@ -28,7 +28,7 @@ The model used is a fully connected feedforward neural network implemented using
 
 ## 2. Feature Importance Analysis
 
-Feature importance was assessed using a **gradient-based approach**:
+Feature importance is assessed using a **gradient-based approach**:
 
 ```python
 x.requires_grad_(True)
@@ -52,7 +52,7 @@ These align with domain knowledge—curing time and cement chemistry are critica
 
 ## 3. Performance Analysis
 
-The model was trained on a 70/15/15 split (train/val/test) with the following setup:
+The model is trained on a 70/15/15 split (train/val/test) with the following setup:
 
 - **Loss Function**: MSE Loss
 - **Optimizer**: Adam (lr=0.0005, weight_decay=0.001)
@@ -61,7 +61,7 @@ The model was trained on a 70/15/15 split (train/val/test) with the following se
 - **Gradient Clipping**: max_norm = 1.0
 
 ### Evaluation Metrics
-The model was evaluated using:
+The model is evaluated using:
 
 - Mean Absolute Error (MAE)
 - Root Mean Squared Error (RMSE)
@@ -92,6 +92,6 @@ Although the R² is slightly below 0.92, other metrics indicate excellent predic
 - Model implementation meets all architectural and training requirements.
 - Feature importance was analyzed using gradient methods.
 - Performance metrics are strong, with low error margins.
-- Only the R² criterion (≥ 0.92) was narrowly missed.
+- Only the R² criterion (≥ 0.92) is narrowly missed.
 
-The model significantly outperforms a linear baseline (avg RMSE ≈ 10.2 MPa). All deliverables were addressed effectively.
+The model significantly outperforms a linear baseline (avg RMSE ≈ 10.2 MPa).
