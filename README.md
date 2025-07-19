@@ -41,7 +41,7 @@ The average absolute gradient across samples indicates how influential each feat
 - Cement and age-related terms (including `cement_age_interaction` and `Cement_squared`) had the highest gradient values.
 - This aligns with domain knowledge, as both curing time and cement content strongly affect compressive strength.
 
-![Feature Importance](feature_importance.png)
+![Feature Importance](Feature_Importance.png)
 
 ## 3. Performance Analysis
 
